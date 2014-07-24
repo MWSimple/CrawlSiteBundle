@@ -1,6 +1,6 @@
 <?php
 
-namespace MWSimple\CrawlSiteBundle\Controller;
+namespace MWSimple\Bundle\CrawlSiteBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

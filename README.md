@@ -22,8 +22,23 @@ Execute:
 php composer.phar update "mwsimple/crawl-site"
 ```
 
+Add it to the `AppKernel.php` class:
+
+```php
+// ...
+new MWSimple\Bundle\AdminCrudBundle\MWSimpleCrawlSiteBundle(),
+```
+
 ### Crawler Sites
 
 ```cli
 php app/console mwsimple:crawlsite
 ```
+
+## Dependencies
+
+This bundle extends [Goutte](https://github.com/fabpot/goutte).
+
+## Author
+
+Gonzalo Alonso - gonkpo@gmail.com

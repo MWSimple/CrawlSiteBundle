@@ -1,6 +1,6 @@
 <?php
 
-namespace MWSimple\CrawlSiteBundle;
+namespace MWSimple\Bundle\CrawlSiteBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

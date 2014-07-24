@@ -1,6 +1,6 @@
 <?php
 
-namespace MWSimple\CrawlSiteBundle\Model;
+namespace MWSimple\Bundle\CrawlSiteBundle\Model;
 
 use Doctrine\ORM\Mapping as ORM;
 

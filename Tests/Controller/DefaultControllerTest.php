@@ -1,6 +1,6 @@
 <?php
 
-namespace MWSimple\CrawlSiteBundle\Tests\Controller;
+namespace MWSimple\Bundle\CrawlSiteBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
