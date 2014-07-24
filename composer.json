@@ -1,0 +1,29 @@
+{
+    "name": "mwsimple/crawl-site",
+    "description": "This bundle crawler sites",
+    "keywords": ["crawl", "site", "command"],
+    "homepage": "https://github.com/MWSimple/CrawlSiteBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonzalo Alonso",
+            "email": "gonkpo@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~2.3",
+        "fabpot/goutte": "~2.0",
+        "mwsimple/admin-crud": "2.3.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "MWSimple\\Bundle\\CrawlSiteBundle": "" }
+    },
+    "target-dir": "MWSimple/Bundle/CrawlSiteBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.3.x-dev"
+        }
+    }
+}
